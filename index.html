@@ -279,8 +279,7 @@
         <div class="col-md-6 text-center" data-aos="fade-up" data-aos-delay="300">
           <p>Try wide jeans, crop tops, and sneakers. Add cute accessories like mini bags and fun sunglasses for a Y2K vibe.!</p>
         </div>
-          <h1>💿 Random Y2K Outfit Generator</h1>
-  <button onclick="showRandomOutfit()">Show me an outfit</button>
+  <button onclick="showRandomOutfit()">Random outfit generator</button>
   <a id="outfit-link" href="#" target="_blank">Your outfit will appear here</a>
 
   <script>
@@ -294,7 +293,6 @@
       const randomIndex = Math.floor(Math.random() * outfits.length);
       const link = document.getElementById("outfit-link");
       link.href = outfits[randomIndex].url;
-      link.textContent = "Click here to view your outfit!";
     }
   </script>
       </div>
