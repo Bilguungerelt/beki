@@ -297,6 +297,18 @@ a {
   overflow: hidden;
 }
 
+#welcome {
+  font-size: 36px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 40px;
+  color: white;
+  background: linear-gradient(to right, #ffccff, #ccffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Courier New', monospace;
+}
+
 /* .slideshow .swiper-slide {
   background-position-x: -300px;
   transition: background-position-x 1.6s ease-out;
