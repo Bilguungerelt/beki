@@ -298,15 +298,11 @@ a {
 }
 
 #welcome {
-  font-size: 36px;
-  font-weight: 800;
+   font-size: 52px;
+  font-weight: bold;
   text-align: center;
   margin-bottom: 40px;
-  color: white;
-  background: linear-gradient(to right, #ffccff, #ccffff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-family: 'Courier New', monospace;
+  color: black;
 }
 
 /* .slideshow .swiper-slide {
