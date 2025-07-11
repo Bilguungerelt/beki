@@ -275,24 +275,23 @@
   <section id="billboard" class="bg-light py-5">
     <div class="container">
       <div class="row justify-content-center">
-        <h1 class="section-title text-center mt-4" data-aos="fade-up">Y2K Summer Outfit Ideas 💿🖤</h1>
+        <h1 class="section-title text-center mt-4" data-aos="fade-up">Summer Outfit Ideas 💿🖤</h1>
         <div class="col-md-6 text-center" data-aos="fade-up" data-aos-delay="300">
           <p>Try wide jeans, crop tops, and sneakers. Add cute accessories like mini bags and fun sunglasses for a Y2K vibe.!</p>
         </div>
-  <button onclick="showRandomOutfit()">Random outfit generator</button>
-  <a id="outfit-link" href="#" target="_blank">Your outfit will appear here</a>
+  <button onclick="showRandomOutfit()"> Random Outfit Generator!!</button>
 
   <script>
     const outfits = [
-      { url: "https://pin.it/1M9N9lVax" },
-      { url: "https://pin.it/1YD5kDYRZ" },
-      { url: "https://pin.it/3K174ZrnL" }
+      "https://pin.it/1M9N9lVax",
+      "https://pin.it/1YD5kDYRZ",
+      "https://pin.it/3K174ZrnL"
     ];
 
     function showRandomOutfit() {
       const randomIndex = Math.floor(Math.random() * outfits.length);
-      const link = document.getElementById("outfit-link");
-      link.href = outfits[randomIndex].url;
+      const outfitLink = outfits[randomIndex];
+      window.open(outfitLink, "_blank");
     }
   </script>
       </div>
