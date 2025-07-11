@@ -269,6 +269,7 @@
   </nav>
 
   <section id="billboard" class="bg-light py-5">
+    <div id="welcome"></div>
     <div class="container">
       <div class="row justify-content-center">
         <h1 class="section-title text-center mt-4" data-aos="fade-up">Summer Outfit Ideas 💿🖤</h1>
@@ -278,6 +279,11 @@
   <button onclick="showRandomOutfit()"> Click Here For Random Outfit Generator!!</button>
 
   <script>
+     // Show welcome message only on index page
+    document.addEventListener("DOMContentLoaded", function () {
+      const welcomeDiv = document.getElementById("welcome");
+      welcomeDiv.textContent = "Welcome to the Y2K Outfit Generator!";
+    });
     const outfits = [
       "https://pin.it/1M9N9lVax",
       "https://pin.it/1YD5kDYRZ",
